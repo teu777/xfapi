@@ -1,5 +1,8 @@
 # xfapi
 f-facts fapi learning project
 
+# install it
+pip install -r requirements
+
 # run it
-uvicorn main:app --reload
+gunicorn app:app
